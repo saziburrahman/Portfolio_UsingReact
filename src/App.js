@@ -1,7 +1,11 @@
+import Navbar from "./Components/Navbar/Navbar";
+import "./App.css"
+import Intro from "./Components/intro/Intro";
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+     <Navbar />
+     <Intro />
     </div>
   );
 }
